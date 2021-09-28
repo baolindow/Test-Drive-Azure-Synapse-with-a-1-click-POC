@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [decennialTime]\n,[stateName]\n,[countyName]\n,[population]\n,[race]\n,[sex]\n,[minAge]\n,[maxAge]\n FROM [dbo].[usPopulationView]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Demo",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
